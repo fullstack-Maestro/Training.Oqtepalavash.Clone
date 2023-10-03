@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Max.FileBaseContext.Context" Version="0.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Infrastructure\Interfaces\" />
+    <Folder Include="Infrastructure\Services\" />
+  </ItemGroup>
+
+</Project>
