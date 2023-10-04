@@ -3,8 +3,11 @@
 public class Location
 {
     public Enum Hudud { get; set; }
+    
     public string Town { get; set; }
+    
     public string Street { get; set; }
+
     public string Podyez { get; set; }
 
     public Location() { }

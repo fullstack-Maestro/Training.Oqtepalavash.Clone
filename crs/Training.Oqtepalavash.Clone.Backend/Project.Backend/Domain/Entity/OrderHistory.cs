@@ -7,6 +7,7 @@ public class OrderHistory
     public Guid UserId { get; set; }
 
     public Product Order { get; set; }
+
     public decimal Summa { get; set; }
 
     public Status Status { get; set; }

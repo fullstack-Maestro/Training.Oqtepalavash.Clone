@@ -3,10 +3,15 @@
 public class Card
 {
     public Guid Id { get; set; }
+
     public Guid UserId { get; set; }
+
     public bool IsOrdered { get; set; }
+
     public Location Location { get; set; }
+
     public Order Order { get; set; }
+   
     public bool DeliveryStatus { get; set; }
 
     public Card() { }
