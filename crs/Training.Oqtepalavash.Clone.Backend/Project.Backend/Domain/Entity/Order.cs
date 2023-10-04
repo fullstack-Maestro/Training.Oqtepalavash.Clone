@@ -14,9 +14,7 @@ public class Order
     {
         
         Id = id;
-        
         ProductId = productId;
-        
         Count = count;
     }
 }

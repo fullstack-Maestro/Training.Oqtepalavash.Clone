@@ -12,27 +12,21 @@ public class Branches
     
     public string PhoneNumber { get; set; }
     
-    public DateOnly? Open { get; set; }
+    public DateOnly Open { get; set; }
     
-    public DateOnly? Close { get; set; }
+    public DateOnly Close { get; set; }
 
     public Branches(){}
 
-    public Branches(Guid id, string name, Location location, string schedule, string phoneNumber, DateOnly? open, DateOnly? close)
+    public Branches(Guid id, string name, Location location, string schedule, string phoneNumber, DateOnly open, DateOnly close)
     {
        
         Id = id;
-        
         Name = name;
-        
         Location = location;
-        
         Schedule = schedule;
-        
         PhoneNumber = phoneNumber;
-        
         Open = open;
-        
         Close = close;
     }
 }
