@@ -1,4 +1,4 @@
-﻿using Project.Backend.Domain.Common;
+﻿namespace Project.Backend.Domain.Common;
 
 public abstract class AuditableEntity : Entity, IAuditableEntity
 {
